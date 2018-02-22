@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Morning Brew</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css" media="(min-width: 500px)" type="text/css">
+    <link rel="stylesheet" href="css/style.css" media="(max-width: 500px)" type="text/css">
+    <script src="http://cdn.jsdelivr.net/particle-api-js/5/particle.min.js"></script>
+</head>
+<body onload="load()">
+
+    <!-- Login Page -->
+    <div id="loginpage">
+        <div class="form">
+            <h1>Morning Brew Login</h1>
+            <hr />
+            <div class="userpass">
+                <p class="parent">Username:</p>
+                <input class="design" id="username" type="text" value="everett.witt@wustl.edu" />
+                <br><br>
+                <p class="parent">Password:</p>
+                <input class="design" id="password" type="password" value="scotthom" />
+
+                <input id="login" type="button" name="submit" value="Login">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Control Page -->
+    <div id="controlpage">
+        <div class="controls">
+            <h1>Control Screen</h1>
+            <hr />
+            <div class="userpass">
+                <!-- Status -->
+                <div class="status">
+                    <p id="stat">Status: Off</p>
+                    <input id="brewbutton" type="button" name="brew" value="Brew">
+                    <input id="donebutton" type="button" name="finish" value="Done">
+                </div>
+
+                <!-- Touch -->
+                <div class="touch">
+                    <p>Touch Coffee Pot:</p>
+                    <p id="currenttoucuh">Safe</p>
+                </div>
+
+                <!-- Coffee Strength -->
+                <div class="coffeestrength">
+                    <p id="coffeetype">Coffee Strength: Decaf</p>
+                    <br>
+                    <input id="coffeedecaf" type="button" name="decaf" value="Decaf">
+                    <input id="coffeemediuem" type="button" name="medium" value="Medium">
+                    <input id="coffeedark" type="button" name="dark" value="Dark">
+                </div>
+
+                <!-- Autobrew Timer -->
+                <div class="autobrew">
+                    <p id="timer">Auto-Brew:</p>
+                    <input id="enablebutton" type="button" value="Disable">
+                    <br>
+                    <p>Time (in seconds):</p>
+                    <input id="coffeetime" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57">
+                    <br>
+                    <br>
+                    <input id="startbutton" type="button" name="start" value="Start">
+                </div>
+                <input id="controltologin" type="button" name="submit" value="Logout">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

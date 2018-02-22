@@ -1,0 +1,118 @@
+body {
+    background-color: #696969;
+}
+
+.form {
+    height: 300px;
+    width: 300px;
+    background: #d3d3d3;
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.userpass {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-family: monospace;
+}
+
+.parent {
+    position: relative;
+    left: -35%;
+}
+
+.design {
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    left: -9%;
+}
+
+#login {
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 82px;
+}
+
+/*Control Page*/
+#controlpage {
+    height: 970px;
+}
+
+.controls {
+    height: 950px;
+    width: 300px;
+    background: #d3d3d3;
+    overflow: hidden;
+    position: absolute;
+    top: 3.5%;
+    left: 2%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.status {
+    height: 120px;
+    width: 200px;
+    padding-top: 30px;
+    position: relative;
+    top: -140px;
+    left: 20px;
+    border-style: dotted;
+}
+
+.touch {
+    height: 100px;
+    width: 200px;
+    padding-top: 30px;
+    position: relative;
+    top: -116px;
+    left: 20px;
+    border-style: dotted;
+}
+
+.status input {
+    position: relative;
+    top: 15px;
+}
+
+.coffeestrength {
+    height: 120px;
+    width: 200px;
+    padding-top: 30px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+    border-style: dotted;
+}
+
+.autobrew {
+    height: 140px;
+    width: 200px;
+    padding-top: 30px;
+    position: relative;
+    top: -60px;
+    left: 20px;
+    border-style: dotted;
+}
+
+#timer {
+    display: inline;
+}
+
+#controltologin {
+    position: relative;
+    top: -5px;
+    left: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
